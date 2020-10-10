@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# appr
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Calcular la probabilidad de que una persona tenga una enfermedad cardiovascular de acuerdo a ciertos factores use
+
+## Installation
+
+You can install the released version of appr from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("appr")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(appr)
+## basic example code
+model_cardio(30,"Female",120)
+```
+
